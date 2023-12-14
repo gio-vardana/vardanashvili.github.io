@@ -1,216 +1,185 @@
+
+/* Smaller Screens */
+
+@media (max-width:  1240px) {
+    .content {
+        padding: 0 30px;
+    }
+
+    .content .item .item-desc p {
+        padding: 0 20px;
+    }
+}
+
+/* Tablets/iPad */
+
 @media (max-width: 768px) {
-  .left-links{
-    display: none;
-  }
-  .right-button{
-    display: none;
-  }
-
-  .menu-items {
-    display: none;
-  }
-
-  .menu-icon {
-    display: block;
-    padding-top: 10px;
-  }
-
-  .menu-icon.active .menu-line:nth-child(1) {
-    transform: rotate(45deg) translate(5px, 5px);
-  }
-
-  .menu-icon.active .menu-line:nth-child(2) {
-    opacity: 0;
-  }
-
-  .menu-icon.active .menu-line:nth-child(3) {
-    transform: rotate(-45deg) translate(8px, -8px);
-  }
-
-  .menu-items.active {
-    display: block;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    background-color: #fff;
-    padding: 10px;
-    width: 100%;
-    height: 250px;
-    z-index: 1;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    gap:25px;
-    font-size: 20px;
-    color: #000;
-  }
-  .banner-1{
-    height: 442px;
-  }
-  .banner-1 h1{
-    font-size: 42px;
-  }
-  .banner-1 p{
-    font-size: 16px;
-  }
-  .mid-h1{
-    font-size: 25px;
+    nav {
+        position: fixed;
+        top: -100%;
+    }
+    header{
+        position: fixed;
+        width: 100%;
+        background-color: #191919;
+        
+    }
+    nav .main-btn{
+       margin-top: 25px;
+       
+    }
+    .home-text{
+        margin-top: 178px;
+    }
+    .burger .line{
+        width: 25px;
+        height: 3px;
+        background-color: #fff;
+        margin: 5px 0;
+       
+       }
+       .burger{
+        display: block;
+        cursor: pointer;
+        margin-right: 90px;
+    }
     
-  }
-  .banners1, .banners2, .banners3, .banners4{
-    padding-top:0px;
-    padding-bottom: 0px;
-    height: 242px;
-  }
-  .banners1 h2, .banners2 h2, .banners3 h2, .banners4 h2{
-    font-size:28px ;
-  }
-  .banners1 p, .banners2 p, .banners3 p, .banners4 p{
-    font-size: 12px;
-  }
-  .yellow{
-    padding: 22px 77px;
-  }
-  .text{
-    height: 280px;
-  }
-  .last-banner{
-    height:352px;
-  }
-  .last-banner h1{
-    font-size: 28px;
-  }
-  .left h2 {
-    font-size: 23px;
-  }
-  .mid-h1 h1 {
-
-    font-size: 28px;
-}
-.mid p {
-  font-size: 12px;
-}
-.yellow1 {
-  background-color: #f1a638;
-  color: #000;
-  border: none;
-  padding: 20px 44px;
-  font-family: "Poppins";
-  font-size: 14px;
-  cursor: pointer;
-}
-.left p{
-  font-size: 12px;
-}
-.text p{
-  font-size: 22px;
-}
-}
-/* // mobile// */
-
-@media (max-width: 480px){
-  .center-title h1{
-    font-size: 20px;
-  }
-  .menu-icon{
-    top:11px;
-  }
-  .yellow a{
-    font-size: 11px;
-  }
-  .banner-1{
-    height: 280px;
-  }
-  .banner-1 h1{
-    font-size: 28px;
-  }
-  .banner-1 p{
-    font-size: 13px;
-  }
-  .mid-h1 h1{
-    font-size: 22px;
+    nav{
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        right: 0;
+        transition: .5s;
+    }
+    nav.active{
+        top: 93px;
+        display: flex;
+        flex-direction: column;
+        right: 0;
+        transition: .5s;
+    }
+    nav.active a{
+        font-size: 16px;
+    }
+    .burger.active .line:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
     
-  }
-  .mid-h1{
-    padding-top: 16px;
-    padding-bottom: 0px;
-  }
-  .banners1, .banners2, .banners3, .banners4{
-    padding-top:0px;
-    padding-bottom: 0px;
-    height: 152px;
-  }
-  .banners1 h2, .banners2 h2, .banners3 h2, .banners4 h2{
-    font-size:18px ;
-  }
-  .banners1 p, .banners2 p, .banners3 p, .banners4 p{
-    font-size: 8px;
-  }
-  .yellow{
-    padding: 18px 57px;
-    font-size: 12px;
-  }
-  .text{
-    height: 172px;
-  }
-  .last-banner{
-    height:252px;
-  }
-  .last-banner h1{
-    font-size: 20px;
-  }
-  .left h2 {
-    font-size: 16px;
-  }
-  .mid h1 {
+    .burger.active .line:nth-child(2) {
+        opacity: 0;
+    }
+    
+    .burger.active .line:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    .home-text{
+        z-index: 0;
+    }
+    header nav{
+        width: 100%;
+        height: 290px;
+        background-color:  #333232;
+        transition: .5s;
+        
+    }
 
-    font-size: 16px;
-}
-.mid p {
-  font-size: 8px;
-}
-.yellow1 {
-  background-color: #f1a638;
-  color: #000;
-  border: none;
-  padding: 12px 28px;
-  font-family: "Poppins";
-  font-size: 11px;
-  cursor: pointer;
-}
-.left p{
-  font-size: 10px;
-}
-.text p{
-  font-size: 15px;
-}
-.last-banner p {
-  font-size: 10px;
-}
-footer{
-  height: 184px;
-}
-.left .socials {
-  font-size: 11px;
-}
-.text .s-text{
-  font-size: 12px;
-}
-nav{
-  padding-top: 17px;
-  
-}
-.menu-items a{
-  font-size: 14px;
-  
+    nav ul{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        margin-top: 30px;
+        text-align: center;
+        
+    }
+    
+    
 
+    
+    .banner {
+        height: 515px;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    .title {
+        padding: 40px 15px;
+    }
+
+    .title h2 {
+        margin-bottom: 20px;
+        font-size: 30px;
+    }
+
+    .content {
+        padding: 0 15px;
+        padding-bottom: 30px;
+    }
+
+    .content .item {
+        flex-direction: column;
+    }
+
+    .content .item:first-child {
+        padding-bottom: 0;
+    }
+
+    .content .item .item-desc h3 {
+        font-size: 30px;
+        margin-bottom: 15px;
+        margin-top: 20px;
+    }
+
+    .content .item img {
+        width: 100%;
+        height: 400px;
+    }
+
+    .subscription h3 {
+        font-size: 30px;
+    }
+
+    .subscription {
+        height: auto;
+        padding: 40px 15px;
+    }
+    .subscription input {
+        width: 230px;
+        font-size: 16px;
+    }
 }
-.menu-items.active {
-  
-  width: 100%;
-  height: 182px;
-  gap:15px;
-  
-}
+
+
+/* Mobile */
+
+@media (max-width: 500px) {
+    .home-text h1 {
+        font-size: 45px;
+        text-align: center;
+        padding: 0 20px;
+        line-height: 50px;
+        
+    }
+
+    
+    .home-text p {
+        /* margin-bottom: 10px; */
+    }
+
+    .content {
+        padding: 0 15px;
+    }
+
+    .title h2 {
+        font-size: 28px;
+    }
+
+    .subscription button {
+        padding: 22px;
+    }
+
+    .content .item img {
+        height: 320px;
+    }
 }
