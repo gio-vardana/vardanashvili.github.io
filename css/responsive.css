@@ -1,0 +1,336 @@
+@media (max-width: 1024px ){
+    *{margin: 0px;
+        padding: 0px;
+    }
+    header {
+        padding: 30px 36px;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 28px;
+        margin-left: -15px;
+        margin-right: -15px;
+        
+    }
+        .banner-2 {
+            height: 579px;
+            width: 422px;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin-top: 25px;
+            margin-right: 15px;
+        }
+        .banner-1 { 
+            height: 325px;
+            width: 504px;
+            background-position: center;
+            background-size: cover;
+            margin-top: 195px;
+            background-repeat: no-repeat;
+            margin-left: 15px;
+        }
+        .mid-text {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            padding-top: 110px;
+            gap: 15px;
+            
+        }
+        h1{
+            font-size:28px;
+            text-align: center;
+           
+        }
+        .mid-text P{
+            font-size: 12px;
+            text-align: center;
+            
+        }
+        .mid-text-button {
+            background-color: black;
+            font-size: 12px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 16px 92px;
+            border: none;
+            font-family: 'Poppins';
+            border-radius: 40px;
+        }
+        .mid-banner {
+            height: 300px;
+            width: 1002px;
+            background-size: cover;
+            background-position: center;
+            margin-top: 54px;
+            margin-left: 10px;
+            
+        }
+        .menu-p{
+            text-align: center;
+        }
+        h2 {
+            text-align: center;
+            font-size: 30px;
+            font-family: 'Poppins-bold';
+            padding-top: 30px;
+            padding-bottom: 70px;
+            font-weight: 500;
+        }
+        .menu-1 h3 {
+            font-family: 'Poppins';
+            font-size: 14px;
+        }
+        .menu-1 p {
+            font-family: 'Poppins';
+            font-size: 10px;
+            margin-bottom: 18px;
+        }
+        span {
+            font-family: 'Poppins';
+            font-size: 18px;
+            margin-left: 482px;
+            font-weight: 300;
+        }
+        .banner-text {
+            height: 397px;
+            width: 65%;
+            background-position: center;
+            background-size: cover;
+            margin-left: 10px;
+            display: flex;
+            flex-direction: column;
+            margin-top: 60px;
+        }
+        .text {
+            background-color: #fff;
+            width: 450px;
+            height: 205px;
+            margin-left: 543px;
+            margin-top: 115px;
+            display: flex;
+            flex-direction: column;
+            text-align: start;
+        }
+        .text h4 {
+            padding-top: 28px;
+            padding-bottom: 23px;
+            margin-left: 25px;
+            font-family: 'Poppins-bold';
+            font-weight: 700;
+            font-size: 15px;
+        }
+        .text a{ 
+            font-size: 12px;
+            margin-left: 25px;
+        }
+        .menu-1{
+            display: none;
+        }
+    }
+    @media (max-width: 768px ){
+        .banner-2 {
+            height: 525px;
+            width: 350px;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin-top: 25px;
+            margin-right: 10px;
+        }
+        .banner-1 {
+            height: 231px;
+            width: 365px;
+            background-position: center;
+            background-size: cover;
+            margin-top: 195px;
+            background-repeat: no-repeat;
+            margin-left: 15px;
+        }
+        .mid-banner{
+            width:756px;
+        }
+        .text {
+            background-color: #fff;
+            width: 403px;
+            height: 205px;
+            margin-left: 322px;
+            margin-top: 115px;
+            display: flex;
+            flex-direction: column;
+            text-align: start;
+        }
+        span {
+            font-family: 'Poppins';
+            font-size: 18px;
+            margin-left: 252px;
+            font-weight: 300;
+        }
+        h2{
+            font-size: 20px;
+        }
+        .footer-a{
+            font-size: 14px;
+        }
+        .footer-button {
+            background-color: black;
+            font-size: 18px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 15px 61px;
+            border: none;
+            font-family: 'Poppins';
+            border-radius: 45px;
+            margin-bottom: 40px;
+        }
+
+
+    }
+    @media (max-width: 480px ){
+        .menu ul{
+            display: none;
+        }
+        .header-logo{
+            font-size: 15px;
+        }
+        .header-button{
+            padding: 5px 9px;
+        }
+        .header-but{
+            font-size: 10px;
+        }
+        .banner-1 {
+            height: 138px;
+            width: 185px;
+            background-position: center;
+            background-size: cover;
+            margin-top: 109px;
+            background-repeat: no-repeat;
+            margin-left: 15px;
+        }
+        .banner-2 {
+            height: 299px;
+            width: 240px;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin-top: 25px;
+            margin-right: 10px;
+        }
+        .mid-text{
+            padding-top: 21px;
+        }
+        h1{
+            font-size: 14px;
+        }
+        .mid-text p{
+            font-size: 8px;
+        }
+        .mid-text-button{
+            padding: 13px 32px;
+        }
+        .mid-banner {
+            width: 461px;
+            margin-top: 20px;
+            height: 169px;
+        }
+        h2{
+           font-size: 15px;
+        }
+        .menu-2 h3 {
+            font-family: 'Poppins';
+            font-size: 12px;
+        }
+        .menu-2{
+          display: none;
+        }
+        .banner-text {
+            height: 280px;
+            width: 60%;
+            background-position: center;
+            background-size: cover;
+            margin-left: 10px;
+            display: flex;
+            flex-direction: column;
+            margin-top: -63px;
+        }
+        .text {
+            background-color: #fff;
+            width: 273px;
+            height: 124px;
+            margin-left: 173px;
+            margin-top: 74px;
+            display: flex;
+            flex-direction: column;
+            text-align: start;
+        }
+        .text h4 {
+            padding-top: 10px;
+            padding-bottom: 2px;
+            margin-left: 24px;
+            font-family: 'Poppins-bold';
+            font-weight: 700;
+            font-size: 12px;
+        }
+        .address-1{
+            gap:15px;
+        }
+        .address-2{
+            gap:15px;
+        }
+        .address-1 h2{
+            font-size: 15px;
+            padding-bottom: 15px;
+        }
+        .address-2 h2{
+            padding-bottom: 15px;
+        }
+        .address-1 p{
+            font-size: 10px;
+        }
+        .address-2 p{
+            font-size: 10px;
+        }
+        .text a{
+            font-size: 10px;
+        }
+        .footer-menu{
+            padding-top: 40px;
+        }
+        .footer-button {
+            background-color: black;
+            font-size: 18px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px 23px;
+            border: none;
+            font-family: 'Poppins';
+            border-radius: 45px;
+            margin-bottom: 20px;
+        }
+        .footer-menu a{
+            font-size: 10px;
+        }
+        .footer-menu p{
+            padding-top: 15px;
+            font-size: 10px;
+        }
+        .footer-socials ul {
+            display: flex;
+            text-decoration: underline;
+            list-style: none;
+            gap: 25px;
+            margin-top: 19px;
+            padding-bottom: 0px;
+        }
+
+        }
+        
+        
+
+    
+    
